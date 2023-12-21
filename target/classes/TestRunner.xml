@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="testCycle1" verbose="1" >
+  <test name="HomePage Test" >
+     <classes>
+       <class name="com.qa.medicare.testcases.HomePageTest" />
+    </classes>
+  </test>
+  
+    <test name="AboutPage Test2" >
+     <classes>
+       <class name="com.qa.medicare.testcases.AboutPageTest" />
+    </classes>
+  </test>
+    <test name="ProductPageTest Test2" >
+     <classes>
+       <class name="com.qa.medicare.testcases.ProductPageTest" />
+    </classes>
+  </test>
+    <test name="RespiratorypageTest Test2" >
+     <classes>
+       <class name="com.qa.medicare.testcases.RespiratorypageTest" />
+    </classes>
+  </test>
+    <test name="OrderPageTest Test2" >
+     <classes>
+       <class name="com.qa.medicare.testcases.OrderPageTest" />
+    </classes>
+  </test>
+  </suite>
